@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/news_title_item_state"
+        >
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainColor"
+            android:textSize="17dp"
+            android:text="Windows 10应用商店中国定制版现身 系统界面曝光"/>
+        <TextView
+            android:id="@+id/news_publish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:layout_below="@+id/news_title"
+            android:text="2015-07-24 10:30:38"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/news_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="3"
+            android:text="7月24日消息，昨日有网友在国内某知名论坛发布疑似Win10应用商店中国定制版的系统界面图片，一时间引发诸多热议。这名网友发帖称是从内部人士手里拿到了Win10特别版的系统映像，安装后发现这竟然是Win10针对中国地区的定制版本。系统中除内置了很多微软旗下的服务外，还有一些本地化的功能。据此他猜测，这极有可能就是专门提供给中国盗版用户免费使用的定制版本。"
+            android:textSize="15sp"
+            android:layout_below="@+id/news_publish_time"
+            android:layout_toLeftOf="@+id/news_image"
+            android:layout_toStartOf="@+id/news_image"
+            android:layout_marginRight="2dp"/>
+        <ImageView
+            android:id="@+id/news_image"
+            android:layout_width="78dp"
+            android:layout_height="52dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/news_title_default_image"
+            android:layout_alignTop="@+id/news_summary"
+            android:layout_alignRight="@+id/news_title"
+            android:layout_alignEnd="@+id/news_title" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:gravity="right"
+            android:layout_alignRight="@+id/news_image"
+            android:layout_above="@+id/news_image">
+            <ImageView
+                android:id="@+id/comment_image"
+                android:layout_width="20dp"
+                android:layout_height="12dp"
+                android:src="@mipmap/list_comment"   />
+            <TextView
+                android:id="@+id/news_comment_number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="10"
+                android:textSize="12sp"/>
+            <ImageView
+                android:id="@+id/reader_image"
+                android:layout_width="20dp"
+                android:layout_height="12dp"
+                android:src="@mipmap/list_eye"/>
+            <TextView
+                android:id="@+id/news_reader_number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_gravity="center"
+                android:text="3022"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

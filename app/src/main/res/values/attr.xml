@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProportionLinearLayout">
+        <attr name="pl_Reversal" format="boolean" />
+        <attr name="pl_proportion" format="float" />
+    </declare-styleable>
+    <declare-styleable name="ExtImageView">
+        <attr name="ex_enable" format="boolean"/>
+        <attr name="ex_Reversal" format="boolean" />
+        <attr name="ex_proportion" format="float" />
+    </declare-styleable>
+
+    <!--ircleImageView属性-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color"/>
+        <attr name="border_overlay" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="textSelectColor" format="color|reference"/>
+    <attr name="cardBackground" format="color|reference"/>
+    <attr name="refBackground" format="color|reference"/>
+    <attr name="titleColor" format="color|reference"/>
+    <attr name="subTitleColor" format="color|reference"/>
+    <attr name="toolbarTheme"  format="reference"/>
+    <attr name="toolbarPopupTheme"  format="reference"/>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/button_state">
+
+        <LinearLayout
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#FFFFCB"
+            android:id="@+id/layout">
+
+            <TextView
+                android:background="@drawable/circle_shape"
+                android:id="@+id/firstWord_text"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:text="上"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/hot_comment_title"
+                android:textSize="16sp"
+                android:textColor="#0D181F"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="上大大师傅了门djfkldjf地方就考虑到口死定放假了三等奖飞洛"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hot_comment_news_title"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:text="匿名用户 评论于 kah的速度aliesndjjdkkdfjkdl"/>
+</LinearLayout>
+</LinearLayout>

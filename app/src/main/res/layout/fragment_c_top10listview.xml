@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <ListView
+          android:id="@+id/top10_listView"
+          android:scrollbarSize="4dp"
+          android:scrollbarThumbVertical="@color/mainColor"
+          android:scrollbarStyle="outsideOverlay"
+          android:listSelector="#00000000"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:dividerHeight="10dp"
+          android:divider="@null" >
+      </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

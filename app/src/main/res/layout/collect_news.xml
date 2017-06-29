@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_background"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center">
+
+            <!--<org.zreo.cnbetareader.Utils.CircleImageView
+                android:id="@+id/circle_image"
+                android:src="@android:color/holo_green_light"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                />-->
+            <TextView
+                android:id="@+id/first_word"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_shape"
+                android:text="德"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/collect_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/mainColor"
+            android:text="德玛西亚！德玛西亚万岁"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

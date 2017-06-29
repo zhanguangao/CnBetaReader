@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="drawer_image">25dp</dimen>   <!--右滑菜单图片的大小-->
+    <dimen name="drawer_text">17dp</dimen>    <!--右滑菜单文字的大小-->
+    <dimen name="drawer_image_margin_Left">15dp</dimen>  <!--右滑菜单图片离左边缘的距离-->
+    <dimen name="drawer_text_margin_Left">30dp</dimen>   <!--右滑菜单文字离左边菜单图片的距离-->
+</resources>

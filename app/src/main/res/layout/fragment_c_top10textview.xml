@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/button_state">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="60dp"
+            android:paddingTop="15dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@color/mainColor"
+                android:layout_height="45dp"
+                android:layout_width="45dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ranking"/>
+
+            <TextView
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:id="@+id/news_title1"
+                android:layout_height="45dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"
+                android:text="假身份的撒谎发生的发生我还是哼爱你的轻轻压向子女我度快放"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hot"
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:text="热度:15456"
+            android:gravity="right"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

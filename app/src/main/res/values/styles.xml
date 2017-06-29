@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/mainColor</item> <!--状态栏颜色-->
+        <item name="colorPrimary">@color/mainColor</item>  <!--ActionBar颜色-->
+        <item name="android:textColorPrimary">@color/black</item> <!--ActionBar上的标题与更多菜单中的文字颜色-->
+        <item name="colorControlNormal">@color/white</item>  <!--ActionBar控件颜色-->
+    </style>
+
+    <style name="ButtonBarButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">50dp</item>
+    </style>
+
+    <style name="Preference" />
+    <style name="Preference.Category">
+        <item name="android:layout">@layout/preference_category_holo</item>
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+</resources>

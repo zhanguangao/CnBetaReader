@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/refresh" android:title="@string/action_refresh" app:showAsAction="never"/>
+    <item android:id="@+id/qxsc" android:title="@string/action_qxsc"  app:showAsAction="never"/>
+    <item android:id="@+id/sc"   android:title="收藏"   app:showAsAction="never"/>
+    <item android:id="@+id/font" android:title="@string/action_font" app:showAsAction="never"/>
+    <item android:id="@+id/browser" android:title="@string/action_browser" app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_white_48dp"
+        app:showAsAction="ifRoom"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:title="@string/action_share" />
+</menu>

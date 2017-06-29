@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue1">#296fb7</color>
+    <color name="lightblue">#239ae3</color><!--浅蓝-->
+    <color name="yellow">#E9E8B2</color><!--黄色-->
+    <color name="gray">#dddbdb</color><!--灰色-->
+    <color name="mainColor">#296fb7</color><!--App状态栏颜色 -->
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="light_gray">#d3d3d3</color><!--亮灰色 -->
+    <color name ="blue">#3366CC</color><!--棕色 -->
+    <color name="transparent">#00FFFFFF</color>
+    <!--主题配色的颜色-->
+
+    <color name ="brown">#BFBFBF</color><!--棕色 -->
+    <color name ="orange">#FF9900</color><!--橙色 -->
+    <color name ="purple">#003399</color><!--紫色 -->
+    <color name ="green">#00CC00</color><!--绿色 -->
+</resources>

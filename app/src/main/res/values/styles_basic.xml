@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <style name="Theme.Basic" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Category</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="colorAccent">#3c69ce</item>
+        </style>
+
+    <style name="Theme.Basic.BROWN">
+        <item name="colorPrimary">#795548</item>
+        <item name="colorPrimaryDark">#5D4037</item>
+        <item name="colorAccent">#795548</item>
+    </style>
+
+    <style name="Theme.Basic.ORANGE">
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#F57C00</item>
+        <item name="colorAccent">#FF9800</item>
+    </style>
+
+    <style name="Theme.Basic.PURPLE">
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryDark">#7B1FA2</item>
+        <item name="colorAccent">#7C4DFF</item>
+    </style>
+
+    <style name="Theme.Basic.GREEN">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+    
+    <style name="Theme.Basic.NoAnim">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="Theme.Basic.BROWN.NoAnim">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="Theme.Basic.ORANGE.NoAnim">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="Theme.Basic.PURPLE.NoAnim">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="Theme.Basic.GREEN.NoAnim">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+
+</resources>

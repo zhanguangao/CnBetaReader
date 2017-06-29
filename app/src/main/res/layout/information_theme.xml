@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:id="@+id/ifragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        >
+
+        <TextView android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:text="已关注" android:gravity="center"
+
+            android:layout_weight="1"
+            android:id="@+id/itv_Tab1"
+            android:background="@color/mainColor"/>
+
+        <TextView android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:text="可关注"
+            android:gravity="center"
+            android:layout_weight="1" android:id="@+id/itv_Tab2"
+            android:background="@color/mainColor"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+</FrameLayout>
+    </LinearLayout>
+
+
+
+

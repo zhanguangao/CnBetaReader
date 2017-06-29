@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/no_wifi_environment_auto_load"
+        >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/information_detail_key"
+            android:summaryOff="@string/auto_load_off"
+            android:summaryOn="@string/auto_load_on"
+            android:title="@string/information_detail_title"
+
+            />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/information_list_key"
+            android:summaryOff="@string/auto_load_off"
+            android:summaryOn="@string/auto_load_on"
+            android:title="@string/information_list_title" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/auto_load">
+      <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/load_latest_information_key"
+        android:summaryOff="@string/load_off"
+        android:summaryOn="@string/load_on"
+        android:title="@string/load_latest_information_title" />
+
+      <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/auto_load_more_key"
+        android:summaryOff="@string/load_off"
+        android:summaryOn="@string/load_on"
+        android:title="@string/auto_load_more_title" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/clean_cache">
+
+    <Preference
+    android:key="@string/clean_cache_key"
+    android:title="@string/clean_cache_title" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general_category">
+
+        <Preference
+            android:key="theme"
+            android:title="@string/theme"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prompt_title">
+        <Preference
+            android:title="@string/text_1_title"
+            android:layout="@layout/preference_category_holo"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about_title">
+
+        <Preference
+            android:title="@string/text_title"
+            android:layout="@layout/preference_category_holo"/>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
